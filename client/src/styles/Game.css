@@ -1,0 +1,171 @@
+/* Game Page Styling */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Navigation */
+.game-nav {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+.score-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Game Content */
+.game-content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.loading-text {
+  font-size: 1.5rem;
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Game Card */
+.game-card {
+  background: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 500px;
+}
+
+/* Question */
+.game-question {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.question-icon {
+  color: red;
+}
+
+/* Clue */
+.game-clue {
+  font-size: 1.2rem;
+  color: gray;
+  margin: 1rem 0;
+}
+
+/* Options */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.option-button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.default-option {
+  background: #f0f0f0;
+  color: black;
+}
+
+.default-option:hover {
+  background: #dcdcdc;
+}
+
+.correct-option {
+  background: #28a745;
+  color: white;
+}
+
+.wrong-option {
+  background: #dc3545;
+  color: white;
+}
+
+/* Feedback */
+.feedback-message {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.correct-text {
+  color: green;
+}
+
+.wrong-text {
+  color: red;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.next-button,
+.restart-button {
+  font-size: 1rem;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.next-button {
+  background: blue;
+  color: white;
+}
+
+.restart-button {
+  background: yellow;
+  color: black;
+}

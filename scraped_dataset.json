@@ -1,0 +1,162 @@
+[
+    {
+      "city": "Paris",
+      "country": "France",
+      "clues": [
+        "This city is home to a famous tower that sparkles every night.",
+        "Known as the 'City of Love' and a hub for fashion and art."
+      ],
+      "fun_fact": [
+        "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
+        "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules."
+      ],
+      "trivia": [
+        "This city is famous for its croissants and macarons. Bon appétit!",
+        "Paris was originally a Roman city called Lutetia."
+      ]
+    },
+    {
+      "city": "Tokyo",
+      "country": "Japan",
+      "clues": [
+        "This city has the busiest pedestrian crossing in the world.",
+        "You can visit an entire district dedicated to anime, manga, and gaming."
+      ],
+      "fun_fact": [
+        "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
+        "More than 14 million people live in Tokyo, making it one of the most populous cities in the world."
+      ],
+      "trivia": [
+        "The city has over 160,000 restaurants, more than any other city in the world.",
+        "Tokyo’s subway system is so efficient that train delays of just a few minutes come with formal apologies."
+      ]
+    },
+    {
+      "city": "New York",
+      "country": "USA",
+      "clues": [
+        "Home to a green statue gifted by France in the 1800s.",
+        "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+      ],
+      "fun_fact": [
+        "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+        "Times Square was once called Longacre Square before being renamed in 1904."
+      ],
+      "trivia": [
+        "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+        "The Empire State Building has its own zip code: 10118."
+      ]
+    },
+    {
+      "city": "Rome",
+      "country": "Italy",
+      "clues": [
+        "This city is known as the 'Eternal City' and is home to ancient ruins.",
+        "It is the birthplace of the Roman Empire and has a country within its city limits."
+      ],
+      "fun_fact": [
+        "Rome has been continuously inhabited for over 2,500 years.",
+        "The Vatican City, the smallest independent nation in the world, is located within Rome."
+      ],
+      "trivia": [
+        "Rome has more than 900 churches.",
+        "The Colosseum, one of the world's most famous amphitheaters, was used for gladiatorial contests and public spectacles."
+      ]
+    },
+    {
+      "city": "Sydney",
+      "country": "Australia",
+      "clues": [
+        "This city is famous for its iconic opera house with a sail-like roof.",
+        "It is the largest city in Australia and known for its beautiful beaches."
+      ],
+      "fun_fact": [
+        "The Sydney Opera House took 14 years to build and is now a UNESCO World Heritage Site.",
+        "The city's Bondi to Coogee coastal walk is a popular scenic route."
+      ],
+      "trivia": [
+        "Sydney Harbor Bridge is one of the world's largest steel arch bridges.",
+        "The city hosts the annual Sydney Mardi Gras, one of the largest LGBTQ+ events in the world."
+      ]
+    },
+    {
+      "city": "Cairo",
+      "country": "Egypt",
+      "clues": [
+        "This city is home to the Great Pyramids and the Sphinx.",
+        "It is the largest city in the Arab world and a gateway to ancient Egyptian history."
+      ],
+      "fun_fact": [
+        "The Great Pyramid of Giza is the oldest and only remaining wonder of the ancient world.",
+        "Cairo has been a center of Islamic learning since the 10th century."
+      ],
+      "trivia": [
+        "The Egyptian Museum in Cairo houses the largest collection of ancient Egyptian artifacts in the world.",
+        "Cairo's Tahrir Square is a major public square and the focal point of many political events."
+      ]
+    },
+    {
+      "city": "Mumbai",
+      "country": "India",
+      "clues": [
+        "This city is the financial and entertainment capital of India.",
+        "It is home to Bollywood, the largest film industry in the world."
+      ],
+      "fun_fact": [
+        "Mumbai was originally a collection of seven islands that were later merged.",
+        "The city has the highest number of billionaires in India."
+      ],
+      "trivia": [
+        "The Gateway of India is a famous monument built during the British Raj.",
+        "Mumbai's Dharavi slum is one of the largest slums in the world."
+      ]
+    },
+    {
+      "city": "Moscow",
+      "country": "Russia",
+      "clues": [
+        "This city is known for its onion-domed architecture and the Kremlin.",
+        "It is the largest city in Europe and a major political center."
+      ],
+      "fun_fact": [
+        "The Kremlin is a fortified complex that includes the official residence of the President of Russia.",
+        "Moscow has the deepest metro system in the world, with some stations over 200 feet deep."
+      ],
+      "trivia": [
+        "The city's Red Square is a UNESCO World Heritage Site.",
+        "Moscow is home to the Bolshoi Theatre, one of the most famous ballet companies in the world."
+      ]
+    },
+    {
+      "city": "Beijing",
+      "country": "China",
+      "clues": [
+        "This city is the capital of China and known for its rich history.",
+        "It is home to the Forbidden City and the Summer Palace."
+      ],
+      "fun_fact": [
+        "The Forbidden City was the imperial palace for 24 emperors over nearly 500 years.",
+        "Beijing has the largest city park in the world, the Temple of Heaven Park."
+      ],
+      "trivia": [
+        "The city has a complex system of hutongs, narrow alleyways that are remnants of old Beijing.",
+        "Beijing is the only city to have hosted both the Summer and Winter Olympic Games."
+      ]
+    },
+    {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "clues": [
+        "This city straddles two continents, Europe and Asia.",
+        "It is known for its rich history and architectural landmarks."
+      ],
+      "fun_fact": [
+        "Istanbul was the capital of three great empires: the Roman, Byzantine, and Ottoman Empires.",
+        "The city has over 3,000 mosques."
+      ],
+      "trivia": [
+        "The Hagia Sophia is a former church, mosque, and now a museum that showcases both Christian and Islamic art.",
+        "Istanbul's Grand Bazaar is one of the oldest and largest covered markets in the world."
+      ]
+    }
+  ]

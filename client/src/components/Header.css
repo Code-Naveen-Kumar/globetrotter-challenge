@@ -1,0 +1,32 @@
+/* Navigation Bar */
+.navbar {
+  background: #0077b6;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Navigation Links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background: #0096c7;
+}
+
+/* Active Link Styling */
+.active {
+  background: #023e8a;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
