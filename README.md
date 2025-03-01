@@ -7,8 +7,10 @@ The **Globetrotter Challenge** is a fun and interactive **full-stack web applica
 ## 🚀 **Live Demo**
 ## **Frontend**
 🔗 https://client-c0it6nxty-code-naveen-kumars-projects.vercel.app 
+
 ## **Backend**
 🔗 https://globetrotter-challenge.onrender.com
+
 ---
 
 ## 🎯 **Features**
