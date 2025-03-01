@@ -60,27 +60,17 @@ globetrotter/
 git clone https://github.com/yourusername/globetrotter-challenge.git
 cd globetrotter-challenge
 
-
 ---
-
-## **✅ Key Features of this README**
-- **Well-structured & easy to navigate**  
-- **Includes live demo, setup instructions, and API endpoints**  
-- **Encourages contributions**  
-- **Highlights upcoming features**  
-
-### **🚀 Next Steps**
-1️⃣ Replace `"yourusername"` with your **GitHub username**  
-2️⃣ Add the **actual deployment link** if hosted  
-3️⃣ Push it to your **GitHub repository**  
-
-2️⃣ Backend Setup
-sh
+```  
+### **2️⃣ Backend Setup
+```sh
 Copy
 Edit
 cd backend
 npm install
 Set up MongoDB Atlas and add your connection string in .env:
+
+---
 
 ini
 Copy
@@ -89,14 +79,17 @@ MONGO_URI=mongodb+srv://yourusername:yourpassword@cluster.mongodb.net/globetrott
 PORT=5000
 Start the Backend Server
 
+---
+
 sh
 Copy
 Edit
 node server.js
+```
 ✅ Backend runs at http://localhost:5000/.
 
-3️⃣ Frontend Setup
-sh
+### **3️⃣ Frontend Setup
+```sh
 Copy
 Edit
 cd client
@@ -104,5 +97,4 @@ npm install
 npm run dev
 ✅ Open the app in http://localhost:5173/.
 ---
-
-### **Would you like any modifications or additions?** 😊🚀
+```
