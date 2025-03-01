@@ -6,12 +6,12 @@ function Home() {
   const [challengeLink, setChallengeLink] = useState("");
 
   const createChallenge = async () => {
-    const response = await fetch("http://localhost:5000/create-challenge", {
+    const response = await fetch("https://globetrotter-challenge.onrender.com/create-challenge", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
     });
     const data = await response.json();
-    const link = `http://localhost:5173/challenge/${data.challengeId}`;
+    const link = `https://globetrotter-challenge.onrender.com/challenge/${data.challengeId}`;
     setChallengeLink(link);
   };
 

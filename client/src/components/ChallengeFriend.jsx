@@ -13,7 +13,7 @@ function ChallengeFriend() {
     }
   
     try {
-      const response = await fetch("http://localhost:5000/create-challenge", {
+      const response = await fetch("https://globetrotter-challenge.onrender.com/create-challenge", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username: playerName }), // Send username

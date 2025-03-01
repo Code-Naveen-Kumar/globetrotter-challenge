@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:5000", { transports: ["websocket"] });
+const socket = io("https://globetrotter-challenge.onrender.com", { transports: ["websocket"] });
 
 function Challenge() {
   const { challengeId } = useParams();
@@ -15,7 +15,7 @@ function Challenge() {
   // ✅ Fetch Challenge Data
   useEffect(() => {
     if (challengeId) {
-      fetch(`http://localhost:5000/challenge/${challengeId}`)
+      fetch(`https://globetrotter-challenge.onrender.com/challenge/${challengeId}`)
         .then((res) => res.json())
         .then((data) => {
           setChallenge(data);

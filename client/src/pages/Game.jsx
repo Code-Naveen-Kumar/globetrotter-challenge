@@ -18,7 +18,7 @@ function Game() {
 
   const fetchRandomDestination = () => {
     setLoading(true);
-    fetch("http://localhost:5000/random-destination")
+    fetch("https://globetrotter-challenge.onrender.com/random-destination")
       .then((res) => res.json())
       .then((data) => {
         const cityData = data[0]; // First city in response
@@ -35,7 +35,7 @@ function Game() {
   // Generate multiple-choice options (1 correct + 3 incorrect)
   const generateOptions = async (correctCity) => {
     try {
-      const res = await fetch("http://localhost:5000/random-destination");
+      const res = await fetch("https://globetrotter-challenge.onrender.com/random-destination");
       const otherCities = await res.json();
 
       const incorrectOptions = otherCities
