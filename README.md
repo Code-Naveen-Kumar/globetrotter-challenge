@@ -62,7 +62,7 @@ cd globetrotter-challenge
 
 ---
 ```  
-### **2️⃣ Backend Setup
+### **2️⃣ Backend Setup**
 ```sh
 Copy
 Edit
@@ -88,13 +88,13 @@ node server.js
 ```
 ✅ Backend runs at http://localhost:5000/.
 
-### **3️⃣ Frontend Setup
+### **3️⃣ Frontend Setup**
 ```sh
 Copy
 Edit
 cd client
 npm install
 npm run dev
-✅ Open the app in http://localhost:5173/.
----
 ```
+✅ Open the app in http://localhost:5173/.
+
